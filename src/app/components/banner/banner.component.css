@@ -14,7 +14,7 @@
 
 }
 
-.banner__text__container {
+.banner__content__container {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -29,7 +29,7 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.banner__text {
+.banner__description {
   color: #898fa6;
   width: 400px;
   text-align: start;
@@ -51,4 +51,10 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 0.8rem;
   text-align: center;
+}
+
+.banner__button:hover{
+  background-color: transparent;
+  border:solid #8447fa 1px;
+  color: black;
 }
