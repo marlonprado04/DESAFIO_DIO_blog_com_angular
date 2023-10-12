@@ -1,3 +1,7 @@
+header{
+  border: 1px solid grey;
+}
+
 .cards__container {
   display: flex;
   flex-direction: row;
