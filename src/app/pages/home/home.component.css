@@ -1,17 +1,22 @@
-.cards__container{
+.cards__container {
   display: flex;
   flex-direction: row;
 }
 
-.medium-cards
-{
+.medium-cards {
   display: flex;
   flex-direction: row;
 }
 
-.text-cards{
+.text-cards {
   margin-top: 10px;
   flex-direction: column;
   gap: 5px;
   display: flex;
+}
+
+.small-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
