@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-banner',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner.component.css']
 })
 export class BannerComponent implements OnInit {
+
+  // Decorator para permitir que o pai insira a informação ao chamar o componente
+  @Input()
+  bannerPhoto: string = "";
+  @Input()
+  bannerTitle: string = "";
+  @Input()
+  bannerDescription: string = "";
 
   constructor() { }
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-text-card',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./text-card.component.css']
 })
 export class TextCardComponent implements OnInit {
+
+  @Input()
+  cardTitle: string = "";
+  @Input()
+  cardDescription: string = "";
 
   constructor() { }
 
