@@ -11,6 +11,8 @@ export class TextCardComponent implements OnInit {
   cardTitle: string = "";
   @Input()
   cardDescription: string = "";
+  @Input()
+  newsId: string = "0";
 
   constructor() { }
 

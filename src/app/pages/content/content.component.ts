@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-content',
@@ -11,9 +12,15 @@ export class ContentComponent implements OnInit {
   contentTitle: string = "Notítica de exemplo";
   contentDescription: string = "Descrição de exemplo";
 
-  constructor() { }
+  // Adiciona parâmetro para gerenciar rotas no método construtor do componente
+  constructor(private route: ActivatedRoute) {
+
+  }
 
   ngOnInit(): void {
+
+    // Ao iniciar componente, pega a rota que redirecionou para esta página e imprime o id passado da rota no console
+    this.route.paramMap.subscribe( value => console.log(value.get("id")))
   }
 
 }

@@ -14,8 +14,10 @@ export class BannerComponent implements OnInit {
   bannerTitle: string = "";
   @Input()
   bannerDescription: string = "";
+  @Input()
+  newsId:string = "0";
 
-  constructor() { }
+    constructor() { }
 
   ngOnInit(): void {
   }

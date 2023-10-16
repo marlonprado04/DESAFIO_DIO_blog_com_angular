@@ -4,6 +4,7 @@
   <div class="banner__content__container">
     <h2 class="banner__title">{{bannerTitle}}</h2>
     <p class="banner__description">{{bannerDescription}}</p>
-    <a class="banner__button" href="#">Read Article</a>
+
+    <a class="banner__button" [routerLink]="['content', newsId]">Read Article</a>
   </div>
 </div>

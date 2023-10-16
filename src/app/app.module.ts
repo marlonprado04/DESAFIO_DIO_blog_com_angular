@@ -8,7 +8,6 @@ import { BannerComponent } from './components/banner/banner.component';
 import { MediumCardComponent } from './components/medium-card/medium-card.component';
 import { TextCardComponent } from './components/text-card/text-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
-import { MenuCardComponent } from './components/menu-card/menu-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 
@@ -20,7 +19,6 @@ import { ContentComponent } from './pages/content/content.component';
     MediumCardComponent,
     TextCardComponent,
     SmallCardComponent,
-    MenuCardComponent,
     HomeComponent,
     ContentComponent
   ],
