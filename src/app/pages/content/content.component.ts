@@ -41,7 +41,7 @@ export class ContentComponent implements OnInit {
     // Atribuindo às variáveis dessa páginas as informações extraídas do dataFake
     this.contentTitle = result.title;
     this.contentDescription = result.description;
-    this.contentImage = result.photo;
+    this.contentImage = result.image;
 
   }
 

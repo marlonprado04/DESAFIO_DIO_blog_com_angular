@@ -9,11 +9,11 @@ export class BannerComponent implements OnInit {
 
   // Decorator para permitir que o pai insira a informação ao chamar o componente
   @Input()
-  bannerPhoto: string = "";
+  image: string = "";
   @Input()
-  bannerTitle: string = "";
+  title: string = "";
   @Input()
-  bannerDescription: string = "";
+  description: string = "";
   @Input()
   newsId:string = "0";
 

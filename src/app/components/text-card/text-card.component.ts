@@ -8,9 +8,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TextCardComponent implements OnInit {
 
   @Input()
-  cardTitle: string = "";
+  title: string = "";
   @Input()
-  cardDescription: string = "";
+  description: string = "";
   @Input()
   newsId: string = "0";
 

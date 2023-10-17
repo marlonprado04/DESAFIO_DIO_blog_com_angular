@@ -7,9 +7,9 @@
 }
 
 .img__menu-bar {
-  width: 80px;
+  width: 40px;
   height: 40px;
-
+  border-radius:50% ;
 }
 
 .container__menu-bar>ul {

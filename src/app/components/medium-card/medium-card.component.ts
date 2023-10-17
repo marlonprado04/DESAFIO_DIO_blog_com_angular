@@ -9,12 +9,12 @@ export class MediumCardComponent implements OnInit {
 
   // Decorator para permitir que o pai insira a informação ao chamar o componente
   @Input()
-  photoCover: string = "";
+  photo: string = "";
 
   @Input()
-  cardTitle: string = "";
+  title: string = "";
   @Input()
-  cardDescription: string = "";
+  description: string = "";
   @Input()
   newsId:string = "0"
 
